@@ -13,7 +13,7 @@ body {
     #display-picture {
         zoom: 50%;
         margin-top: 28vw; // TODO: surely there's a better way to do that
-        border: 1vw solid $borderLight;
+        border: 1vw solid;
         border-radius: 50%;
     }
 }

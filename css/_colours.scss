@@ -17,6 +17,10 @@ $fontLight: #000000;
     color: $fontLight;
 }
 
+.light-dp {
+    border-color: $borderLight;
+}
+
 /***********************/
 /* Dark colour palette */
 /***********************/
@@ -34,4 +38,8 @@ $fontDark: #FFFFFF;
 .dark-bg-secondary {
     background-color: $bgSecondaryDark;
     color: $fontDark;
+}
+
+.dark-dp {
+    border-color: $borderDark;
 }
