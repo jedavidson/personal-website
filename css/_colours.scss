@@ -9,11 +9,13 @@ $fontLight: #000000;
 
 .light-bg-primary {
     background-color: $bgPrimaryLight;
-    color: $fontLight;
 }
 
 .light-bg-secondary {
     background-color: $bgSecondaryLight;
+}
+
+.light-font {
     color: $fontLight;
 }
 
@@ -32,11 +34,13 @@ $fontDark: #FFFFFF;
 
 .dark-bg-primary {
     background-color: $bgPrimaryDark;
-    color: $fontDark;
 }
 
 .dark-bg-secondary {
     background-color: $bgSecondaryDark;
+}
+
+.dark-font {
     color: $fontDark;
 }
 
