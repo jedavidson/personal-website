@@ -1,0 +1,19 @@
+@import './colours';
+@import './mixins';
+
+body {
+    margin: 0vw;
+}
+
+#header {
+    @include flexCenter();
+
+    height: 15vw;
+
+    #display-picture {
+        zoom: 50%;
+        margin-top: 28vw; // TODO: surely there's a better way to do that
+        border: 1vw solid $borderLight;
+        border-radius: 50%;
+    }
+}

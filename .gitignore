@@ -1,0 +1,6 @@
+# Static content
+static/
+
+# Compiled CSS
+*.css
+*.css.map

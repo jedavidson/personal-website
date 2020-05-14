@@ -1,0 +1,37 @@
+/************************/
+/* Light colour palette */
+/***********************/
+
+$bgPrimaryLight: #e9e9e9;
+$bgSecondaryLight: #cccccc;
+$borderLight: #505050;
+$fontLight: #000000;
+
+.light-bg-primary {
+    background-color: $bgPrimaryLight;
+    color: $fontLight;
+}
+
+.light-bg-secondary {
+    background-color: $bgSecondaryLight;
+    color: $fontLight;
+}
+
+/***********************/
+/* Dark colour palette */
+/***********************/
+
+$bgPrimaryDark: #2c2c2c;
+$bgSecondaryDark: #202020;
+$borderDark: #cacaca;
+$fontDark: #FFFFFF;
+
+.dark-bg-primary {
+    background-color: $bgPrimaryDark;
+    color: $fontDark;
+}
+
+.dark-bg-secondary {
+    background-color: $bgSecondaryDark;
+    color: $fontDark;
+}
