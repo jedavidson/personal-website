@@ -9,12 +9,30 @@ body {
 #header {
     @include flexCenter();
 
-    height: 15vw;
+    height: auto;
 
-    #display-picture {
-        zoom: 50%;
-        margin-top: 28vw; // TODO: surely there's a better way to do that
-        border: 1vw solid;
-        border-radius: 50%;
+    #header-shade {
+        height: 12vw;
+        width: 100%;
+    }
+
+    #display-picture-container {
+        // TODO: is there a better way to do this?
+        margin-top: -8vw;
+
+        #display-picture {
+            zoom: 50%;
+            border-radius: 50%;
+        }
+    }
+}
+
+#nametag-container {
+    @include flexCenter();
+
+    #nametag {
+        font-family: "Noto Sans";
+        font-size: 3.5vw;
+        margin-top: 0vw;
     }
 }

@@ -20,7 +20,7 @@ $fontLight: #000000;
 }
 
 .light-dp {
-    border-color: $borderLight;
+    border: 1vw solid $borderLight;
 }
 
 /***********************/
@@ -45,5 +45,5 @@ $fontDark: #FFFFFF;
 }
 
 .dark-dp {
-    border-color: $borderDark;
+    border: 1vw solid $borderDark;
 }
