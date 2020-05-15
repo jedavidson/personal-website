@@ -4,8 +4,9 @@
 
 $bgPrimaryLight: #e9e9e9;
 $bgSecondaryLight: #cccccc;
-$borderLight: #505050;
+$borderLight: $bgSecondaryLight;
 $fontLight: #000000;
+$fontLightMuted: #383838;
 
 .light-bg-primary {
     background-color: $bgPrimaryLight;
@@ -20,7 +21,7 @@ $fontLight: #000000;
 }
 
 .light-dp {
-    border: 1vw solid $borderLight;
+    border: 1.5vw solid $borderLight;
 }
 
 /***********************/
@@ -29,8 +30,9 @@ $fontLight: #000000;
 
 $bgPrimaryDark: #2c2c2c;
 $bgSecondaryDark: #202020;
-$borderDark: #cacaca;
+$borderDark: $bgSecondaryDark;
 $fontDark: #FFFFFF;
+$fontDarkMuted: #cacaca;
 
 .dark-bg-primary {
     background-color: $bgPrimaryDark;
@@ -44,6 +46,10 @@ $fontDark: #FFFFFF;
     color: $fontDark;
 }
 
+.dark-font-muted {
+    color: $fontDarkMuted;
+}
+
 .dark-dp {
-    border: 1vw solid $borderDark;
+    border: 1.5vw solid $borderDark;
 }
