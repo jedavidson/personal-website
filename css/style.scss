@@ -73,12 +73,17 @@ body {
     }
 
     #contact-prompt {
-        margin-top: 0ch;
-        font-family: "Hack Italic";
+        margin-top: -1vw;
+        font-family: "Noto Sans";
         font-size: 1em;
 
-        a {
+        #email {
             text-decoration: none;
+            color: #bebebe;
+
+            &:hover {
+                color: #00cdaf;
+            }
         }
     }
 }
