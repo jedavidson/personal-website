@@ -4,3 +4,6 @@ static/
 # Compiled CSS
 *.css
 *.css.map
+
+# Unused snippets of code
+snippets.*
