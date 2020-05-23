@@ -18,11 +18,12 @@ body {
     }
 
     #display-picture-container {
-        // TODO: is there a better way to do this?
+        // TODO: is there a better (dynamic) way to do this?
         margin-top: -8vw;
 
         #display-picture {
             zoom: 50%;
+            height: auto;
             border-radius: 50%;
         }
     }
