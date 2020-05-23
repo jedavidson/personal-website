@@ -3,7 +3,7 @@
 @import './fonts';
 
 body {
-    margin: 0vw;
+    margin: 0ch;
 }
 
 #header {
@@ -13,16 +13,17 @@ body {
     height: auto;
 
     #header-shade {
-        height: 12vw;
+        height: 20vh;
         width: 100%;
     }
 
     #display-picture-container {
         // TODO: is there a better (dynamic) way to do this?
-        margin-top: -8vw;
+        margin-top: -15vh;
 
         #display-picture {
             zoom: 50%;
+
             height: auto;
             border-radius: 50%;
         }
@@ -33,18 +34,18 @@ body {
     @include flexCenter();
     @include flexVertically();
 
-    margin: 0vw;
+    margin: 0ch;
 
     #nametag {
-        margin-top: 0vw;
-        margin-bottom: 1vw;
+        margin-top: 0vh;
+        margin-bottom: 1vh;
         font-family: "Noto Sans";
-        font-size: 2.5vw;
+        font-size: 2.1em;
     }
 
     #nametag-subtext {
-        margin-top: 0vw;
+        margin-top: 0vh;
         font-family: "Noto Sans Italic";
-        font-size: 1.25vw;
+        font-size: 1.2em;
     }
 }
