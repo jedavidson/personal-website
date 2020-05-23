@@ -47,3 +47,12 @@ body {
         }
     }
 }
+
+#links-container {
+    @include flexCenter();
+
+    width: 40%;
+    margin: auto;
+    margin-top: 2vw;
+    justify-content: space-evenly;
+}
