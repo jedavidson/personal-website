@@ -24,7 +24,9 @@ body {
         height: auto;
 
         #display-picture {
+            // TODO: convert this to a more portable CSS property
             zoom: 50%;
+
             border-style: solid;
             border-width: 1.75vw;
             border-radius: 50%;
