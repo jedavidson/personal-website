@@ -13,23 +13,9 @@ body {
 
     height: auto;
 
-    #header-shade {
-        height: 20vh;
-        width: 100%;
-    }
-
-    #display-picture-container {
-        // TODO: is there a better (dynamic) way to do this?
-        margin-top: -16vh;
-        height: auto;
-
-        #display-picture {
-            // TODO: convert this to a more portable CSS property
-            zoom: 50%;
-
-            border-style: solid;
-            border-width: 1.75vw;
-            border-radius: 50%;
+    #header-img-container {
+        #header-img {
+            width: 100%;
         }
     }
 }

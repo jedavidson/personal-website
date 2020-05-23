@@ -1,10 +1,7 @@
-/************************/
 /* Light colour palette */
-/***********************/
 
-$bgPrimaryLight: #e9e9e9;
+$bgPrimaryLight: #eeeeee;
 $bgSecondaryLight: #cccccc;
-$borderLight: $bgSecondaryLight;
 $fontLight: #000000;
 $fontLightMuted: #383838;
 
@@ -20,18 +17,15 @@ $fontLightMuted: #383838;
     color: $fontLight;
 }
 
-.light-dp {
-    border-color: $borderLight;
+.light-font-muted {
+    color: $fontLightMuted;
 }
 
-/***********************/
 /* Dark colour palette */
-/***********************/
 
-$bgPrimaryDark: #2c2c2c;
-$bgSecondaryDark: #202020;
-$borderDark: $bgSecondaryDark;
-$fontDark: #FFFFFF;
+$bgPrimaryDark: #010101;
+$bgSecondaryDark: #111111;
+$fontDark: #ffffff;
 $fontDarkMuted: #cacaca;
 
 .dark-bg-primary {
@@ -48,8 +42,4 @@ $fontDarkMuted: #cacaca;
 
 .dark-font-muted {
     color: $fontDarkMuted;
-}
-
-.dark-dp {
-    border-color: $borderDark;
 }
