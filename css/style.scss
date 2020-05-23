@@ -4,6 +4,7 @@
 
 body {
     margin: 0ch;
+    overflow-y: scroll;
 }
 
 #header {
@@ -19,12 +20,13 @@ body {
 
     #display-picture-container {
         // TODO: is there a better (dynamic) way to do this?
-        margin-top: -15vh;
+        margin-top: -16vh;
+        height: auto;
 
         #display-picture {
             zoom: 50%;
-
-            height: auto;
+            border-style: solid;
+            border-width: 1.75vw;
             border-radius: 50%;
         }
     }
