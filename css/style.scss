@@ -56,3 +56,29 @@ body {
     margin-top: 2vw;
     justify-content: space-evenly;
 }
+
+#footer {
+    @include flexCenter();
+    @include flexVertically();
+
+    position: fixed;
+    bottom: 0ch;
+    width: 100%;
+
+    #copyright-notice {
+        margin-top: 1vh;
+        margin-bottom: 0ch;
+        font-family: "Noto Sans";
+        font-size: 1em;
+    }
+
+    #contact-prompt {
+        margin-top: 0ch;
+        font-family: "Hack Italic";
+        font-size: 1em;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
