@@ -21,7 +21,7 @@ $fontLightMuted: #383838;
 }
 
 .light-dp {
-    border: 1.75vw solid $borderLight;
+    border-color: $borderLight;
 }
 
 /***********************/
@@ -51,5 +51,5 @@ $fontDarkMuted: #cacaca;
 }
 
 .dark-dp {
-    border: 1.75vw solid $borderDark;
+    border-color: $borderDark;
 }
