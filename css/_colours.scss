@@ -1,32 +1,8 @@
-/* Light colour palette */
-
-$bgPrimaryLight: #eeeeee;
-$bgSecondaryLight: #cccccc;
-$fontLight: #000000;
-$fontLightMuted: #383838;
-
-.light-bg-primary {
-    background-color: $bgPrimaryLight;
-}
-
-.light-bg-secondary {
-    background-color: $bgSecondaryLight;
-}
-
-.light-font {
-    color: $fontLight;
-}
-
-.light-font-muted {
-    color: $fontLightMuted;
-}
-
-/* Dark colour palette */
-
 $bgPrimaryDark: #010101;
 $bgSecondaryDark: #111111;
 $fontDark: #ffffff;
 $fontDarkMuted: #cacaca;
+$fontDarkCode: #494949;
 
 .dark-bg-primary {
     background-color: $bgPrimaryDark;
@@ -42,4 +18,8 @@ $fontDarkMuted: #cacaca;
 
 .dark-font-muted {
     color: $fontDarkMuted;
+}
+
+.dark-font-code {
+    color: $fontDarkCode;
 }

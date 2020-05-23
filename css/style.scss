@@ -24,18 +24,26 @@ body {
     @include flexCenter();
     @include flexVertically();
 
-    margin: 0ch;
+    margin: 2vh;
 
     #nametag {
         margin-top: 0vh;
         margin-bottom: 1vh;
         font-family: "Noto Sans";
-        font-size: 2.1em;
+        font-size: 2.5em;
     }
 
     #nametag-subtext {
-        margin-top: 0vh;
-        font-family: "Noto Sans Italic";
-        font-size: 1.2em;
+        margin-top: 1vh;
+        font-family: "Hack Italic";
+        font-size: 1.25em;
+
+        #degree-one {
+            color: #569CD6;
+        }
+
+        #degree-two {
+            color: #C586C0;
+        }
     }
 }
