@@ -6,7 +6,7 @@ static/
 *.css.map
 
 # Compiled JavaScript
-*.js
+js/*.js
 
 # Unused snippets of code
 snippets.*
