@@ -1,6 +1,6 @@
 (() => {
+    const cursorDuration: number = 550;
     let cursorIsVisible: boolean = true;
-    let cursorDuration: number = 550;
     
     setInterval(() => {
         const cursor: HTMLElement = document.getElementById('eol-cursor');
