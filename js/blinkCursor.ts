@@ -1,9 +1,9 @@
 (() => {
-    let cursorIsVisible = true;
-    let cursorDuration = 550;
+    let cursorIsVisible: boolean = true;
+    let cursorDuration: number = 550;
     
     setInterval(() => {
-        const cursor = document.getElementById('eol-cursor');
+        const cursor: HTMLElement = document.getElementById('eol-cursor');
 
         cursor.style.color = cursorIsVisible
             ? 'black'
