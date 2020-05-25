@@ -68,18 +68,16 @@ body {
     position: fixed;
     bottom: 0ch;
     width: 100%;
+    font-size: 0.85em;
+    font-family: "Noto Sans";
 
     #copyright-notice {
         margin-top: 1vh;
         margin-bottom: 0ch;
-        font-family: "Noto Sans";
-        font-size: 1em;
     }
 
     #contact-prompt {
-        margin-top: -1vw;
-        font-family: "Noto Sans";
-        font-size: 1em;
+        margin-top: -2vh;
 
         #email {
             text-decoration: none;
