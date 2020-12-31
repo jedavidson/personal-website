@@ -11,16 +11,45 @@
 
 <body class="dark-bg-primary">
     <div id="header">
-        <div id="header-shade" class="dark-bg-secondary"></div>
-        <div id="display-picture-container">
-            <img id="display-picture" class="dark-dp" src="static/images/display_picture.jpg">
+        <div id="header-img-container">
+            <img id="header-img" src="static/images/maths.png">
         </div>
     </div>
 
     <div id="nametag-container">
         <p id="nametag" class="dark-font">James Davidson</p>
-        <p id="nametag-subtext" class="dark-font-muted">Computer Science and Mathematics student at UNSW</p>
+        <p id="nametag-subtext" class="dark-font-code">
+            //
+            <span id="degree-one">Computer Science</span>
+            and
+            <span id="degree-two">Advanced Mathematics</span>
+            student at UNSW
+            <span id="eol-cursor">_</span>
+        </p>
     </div>
+
+    <div id="links-container">
+        <a href="https://github.com/jedavidson">
+            <img src="static/images/github.png" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/jamesedavidson/">
+            <img src="static/images/linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="static/content/cv.pdf">
+            <img src="static/images/cv.png" alt="CV">
+        </a>
+    </div>
+
+    <footer id="footer">
+        <p id="copyright-notice" class="dark-font-code">© 2021 James Davidson</p>
+        <br>
+        <p id="contact-prompt" class="dark-font-code">
+            I'm always looking for interesting opportunities. Got one?
+            <a id="email" href="mailto:jedavidson2000@gmail.com">Email me!</a>
+        </p>
+    </footer>
 </body>
+
+<script src="js/blinkCursor.js"></script>
 
 </html>

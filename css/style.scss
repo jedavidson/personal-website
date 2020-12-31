@@ -13,23 +13,9 @@ body {
 
     height: auto;
 
-    #header-shade {
-        height: 20vh;
-        width: 100%;
-    }
-
-    #display-picture-container {
-        // TODO: is there a better (dynamic) way to do this?
-        margin-top: -16vh;
-        height: auto;
-
-        #display-picture {
-            // TODO: convert this to a more portable CSS property
-            zoom: 50%;
-
-            border-style: solid;
-            border-width: 1.75vw;
-            border-radius: 50%;
+    #header-img-container {
+        #header-img {
+            width: 100%;
         }
     }
 }
@@ -38,18 +24,68 @@ body {
     @include flexCenter();
     @include flexVertically();
 
-    margin: 0ch;
+    margin: 2vh;
 
     #nametag {
         margin-top: 0vh;
         margin-bottom: 1vh;
         font-family: "Noto Sans";
-        font-size: 2.1em;
+        font-size: 2.5em;
     }
 
     #nametag-subtext {
-        margin-top: 0vh;
-        font-family: "Noto Sans Italic";
-        font-size: 1.2em;
+        margin-top: 1vh;
+        font-family: "Hack Italic";
+        font-size: 1.15em;
+
+        #degree-one {
+            color: #569CD6;
+        }
+
+        #degree-two {
+            color: #C586C0;
+        }
+
+        #eol-cursor {
+            color: #ffffff;
+        }
+    }
+}
+
+#links-container {
+    @include flexCenter();
+
+    width: 40%;
+    margin: auto;
+    margin-top: 2vw;
+    justify-content: space-evenly;
+}
+
+#footer {
+    @include flexCenter();
+    @include flexVertically();
+
+    position: fixed;
+    bottom: 0ch;
+    width: 100%;
+    font-size: 0.85em;
+    font-family: "Noto Sans";
+
+    #copyright-notice {
+        margin-top: 1vh;
+        margin-bottom: 0ch;
+    }
+
+    #contact-prompt {
+        margin-top: -2vh;
+
+        #email {
+            text-decoration: none;
+            color: #bebebe;
+
+            &:hover {
+                color: #00cdaf;
+            }
+        }
     }
 }
