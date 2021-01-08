@@ -8,5 +8,8 @@ static/
 # Compiled JavaScript
 js/*.js
 
+# NPM packages
+node_modules
+
 # Unused snippets of code
 snippets.*
